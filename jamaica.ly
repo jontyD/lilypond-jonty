@@ -27,7 +27,7 @@ counter={
     a'8 g' f' e' d' c' bes4   \bar "|"  c'2   f'2  c'8 e' f'4 f' f' \bar "|"   f'4  e'4  f'2   \bar "|" 
     a'8 g' f' e' d' c' bes4   \bar "|"  c'2   f'2   \bar "||"       
     d'8 e' f' g' a'4 a'4  \bar "|"  bes8 c' d' e' f'4 f'4   \bar "|"  d'8 e' f' g' g'4 g'  \bar "|" 
-    f'2   e'2   d'8 e' f' g' a'4 a'4  \bar "|"  bes8 c' d' e' f'4 f'4   \bar "|" g'4 f'4 e'4 d'4 
+    f'2   g'2   d'8 e' f' g' a'4 a'4  \bar "|"  bes8 c' d' e' f'4 f'4   \bar "|" g'4 f'4 e'4 f'4 
      \bar "|"  e'2  f'2  \bar "||"   
 }
 
