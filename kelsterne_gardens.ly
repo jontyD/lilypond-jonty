@@ -34,11 +34,11 @@ counter =  {
 
   \repeat volta 2 {
     %  Nottingham Music Database
-    \time 4/4 \key d \minor   a'4  \bar "|"   f'4 ^"D"   f''4    f''8    e''8  
-    d''8    c''8  \bar "|"   d''4    bes'4    g'4    bes'4  \bar "|"   e'4    e''4    e''8    d''8    c''8    bes'8  \bar "|"     d''8    c''8    bes'8    a'8    c''8
-    bes'8    a'8   g'8  \bar "|"   f'4 ^"D"   f''4    f''8    e''8    d''8    c''8
-    \bar "|"   d''4    bes'4    g'4    bes'4  \bar "|"   c''2        bes'2    
-    \bar "|"   a'2. ^"D"
+    \time 4/4 \key d \minor   a4  \bar "|"   f'4 ^"D"   f'4    f'4    d'8  
+    c'8     \bar "|"   e'4    e'4    c'4    bes4  \bar "|"   e'4  e'4  e'4  f'8  e'8  \bar "|"
+    d'2  c'2     \bar "|"    f'4 ^"D"   f'4    f'4    bes'8    c''8    \bar "|"  
+    d''4    bes'4    g'4    bes'4  \bar "|"   c''2        bes'2    \bar "|"
+    a'2. ^"D"
   }
 
   \repeat volta 2{
@@ -54,7 +54,7 @@ counter =  {
 
 
 \score{
-  %<<
+  <<
 
     \new Staff
     {
@@ -69,10 +69,14 @@ counter =  {
     }
    
 
- % >>
+  >>
+
   \layout {
   }
   \midi {
-  \tempo 4 = 120
+ \context {
+    \Score
+    tempoWholesPerMinute = #(ly:make-moment 160 4)
+  }
   }
 }
