@@ -42,11 +42,11 @@ counter =  {
   }
 
   \repeat volta 2{
-    a'4  \bar "|"   d''4    a''4    bes''4    g''8
-    a''8  \bar "|"   bes''8    a''8    g''8    f''8    e''4    c'''4  \bar "|"
-    d''4    bes''2    d''4  \bar "|"   cis''4    a''2    g''8    a''8  \bar "|"
-    bes''8    a''8    g''8    f''8    e''8    d''8    cis''8    e''8  \bar "|"
-    a'4    cis''4    d''4
+    a'4  \bar "|"   d''4    c''4    bes'4    a'4  \bar "|" 
+    g'8 a' bes'4 c''8 d''  e''4 \bar "|"
+    d''8  c''  bes' a' g' f'(f'4)  \bar "|"   cis''8  bes'  a' g' f' e'(e'4) \bar "|"
+    d'8    e'8    f'4 g'4 a'4 \bar "|"
+    a'4    g'4    f'4
   }
 }
 
