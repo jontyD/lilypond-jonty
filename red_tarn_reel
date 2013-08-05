@@ -1,0 +1,35 @@
+\version "2.14.2"
+
+\header {
+  title = "Red Tarn Reel"
+  composer = "Jonty Davis"
+}
+
+global = {
+  \key d \major
+  \time 4/4
+}
+
+violin = \relative c'' {
+  \global
+  \repeat volta 2 {  
+    a8 d b d a d a fis | a b d a b d a fis | a d b d a d a fis| b d a fis e4 d4 |
+  }
+   \repeat volta 2 {  
+    b'8 d4 b8 d4 b8 a |fis a b fis a b a fis |b8 d4 b8 d4 b8 a | b d a fis e4 d4 |
+   }
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "Violin"
+    midiInstrument = "violin"
+  } \violin
+  \layout { }
+  \midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 160 4)
+    }
+  }
+}
