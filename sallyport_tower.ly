@@ -31,15 +31,16 @@ melodion = \relative c'' {
 }
 
 \score {
+  <<
+  \chords {
+    b4.:m b:m | b4.:m b4.:m |fis:m fis:m |fis:m a|
+    b4.:m b:m | b4.:m b4.:m |a e:m |b:m b:m|
+    e:m e:m |b:m/d b:m/d |a a |b:m a/cis |e:m e:m | b:m/d b:m/d| a e:m | b:m b:m||
+   }
   \new Staff \with {
     instrumentName = "Melodeon"
-    midiInstrument = "melodeon"
-  }
-  <<
- \chords {
-    b4.:m b4.:m
-   }
-  \melodion
+    midiInstrument = "accordion"
+  }{ \melodion}
   >>
   \layout { }
   \midi {
