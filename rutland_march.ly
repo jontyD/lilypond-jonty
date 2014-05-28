@@ -8,6 +8,12 @@
   
 }
 
+\paper{
+  top-margin = 50
+  left-margin = 25
+  right-margin = 25
+}
+
 global = {
   \key e \minor
   \time 4/4

@@ -7,6 +7,12 @@
   composer = "Jonty Davis"
 }
 
+\paper{
+  top-margin = 50
+  left-margin = 25
+  right-margin = 25
+}
+
 global = {
   \key b \minor
   \numericTimeSignature
