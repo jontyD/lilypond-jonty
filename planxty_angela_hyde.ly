@@ -5,7 +5,7 @@
   title = "Planxty Angela Hyde"
   instrument = "Any"
   composer = "Jonty Davis"
-  meter = "6/8"
+  meter = "4/4"
   copyright = "Jonty Davis"
 }
 
@@ -15,38 +15,39 @@
 
 global = {
   \key g \major
-  \time 6/8
+  \time 4/4
   \tempo "Air (freely)"
 }
 
-violin_a = \relative c'' {
+violina = \relative c'' {
   \global
- \partial 4. d4. |g4 fis8 e d4|g4 b,8 b8 a4|
- g4 a8 b8 d4 | g,4 b8 a4 d8 |\break g4 fis8 e d4|
- g4 b,8 b8 a4| g8  d'4 b4 g8 |a4.  g4.\fermata \bar "||" \break
- a4 b8 c8 d4| e4 fis8 g8 a4| g4 fis8 e8 d4 | e4 e8 d4 d8|\break
- g4 fis8 e d4| g4 b,8 b8 a4| g8  d'4 b4 g8|a4.  g4.\fermata|
+ \partial 4 d4 |g4. fis8 e d4.|g4. b,8 b8 a4.| g4. a8 b8 d4. | g,4. b8 a4. d8 |\break g4. fis8 e d4.|
+ g4. b,8 b8 a4.| g8  d'4. b4. g8 |a2  g2\fermata \bar "||" \break
+ a4. b8 c8 d4.| e4. fis8 g8 a4.| g4. fis8 e8 d4. | e4. e8 d4. d8|\break
+ g4. fis8 e d4.| g4. b,8 b8 a4.| g8  d'4. b4. g8|a2  g2 \fermata|
   
 }
 
-violin_b = \relative c''{
+violinb = \relative c''{
   \global
-  \partial 4. r4.|g4 a8 b4.|e, fis|e4 fis8 g4 fis8|  e4. d|
-           g4 d'8 c8 b4| e,4. fis|c d |d b|\break
-           c8 d g fis4. | e4 d8 d8 c4|g'8 a b c b4|g4. a|
-           e'4 d8 c8 b4| e,4. fis|c d |d g,|
+  \partial 4 r4|g4. a8 b2|e, fis|e4. fis8 g4. fis8| 
+  e2 d|  g4. d'8 c8 b4.| e,2 fis|c c |d b|
+           c8 d e g fis2 | e4. d8 d8 c4.|g'8 a b c  c b4. |g2 a|
+           e'4. d8 c8 b4.| e,2 fis|c c |d g,|
 }
 
 \score {
   <<
+     \chords{s4| g1 | e1:m | g1 | c2 d2| g1 | e1:m | c1 | d2 g2|
+                a1:m | c1 | e1:m | c2 d2 | g1 | e1:m | c1 | d2 g2||}
   \new Staff \with {
     instrumentName = "Violin"
     midiInstrument = "Violin"
-  }\violin_a
+  }\violina
   \new Staff \with {
     instrumentName = "Violin"
     midiInstrument = "Violin"
-  } \violin_b
+  } \violinb
   >>
   \layout { }
   \midi {
