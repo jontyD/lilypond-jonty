@@ -24,9 +24,9 @@ violin = \relative c'' {
   a b a g  fis g fis e | d'8 a fis a b a fis a | d a b a fis a b a |
   g a b g e fis g e| a b cis a d4. a8 |
   d8 a fis' a,  d8 a fis' a,| d e d cis b cis b a |
-  e' b g' b e, b g' b | fis g fis e d e d cis |
+  e' b g' b, e b g' b, | fis' g fis e d e d cis |
   d8 a fis' a,  d8 a fis' a,| d e d cis b cis b a |
-  e fis g e a b cis a | d2( d2)|
+   g a g fis e fis g e | a b cis a  d2 ||
   
   
 }
@@ -40,7 +40,7 @@ violin = \relative c'' {
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 140 4)
+      tempoWholesPerMinute = #(ly:make-moment 100 2)
     }
   }
 }
