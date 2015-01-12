@@ -25,11 +25,11 @@ violina = \relative c'' {
     a8-\markup{"ral...."} b cis a  d2 | a8 b cis a  d2 |
     a8-\markup{"1/2 speed"} b cis a   d2 \fermata |\break 
   
-  \time 4/2
+  \time 7/4
  
-    d,8 \mark "slow: wild mountain thyme" b a4. b8 d4. e8 d2.|
-    fis8 a b2 b4. a8 fis8 a4.| fis8 a b2 a4. fis8 e8 d2. e16 fis|
-    g4. fis8 e4. d8 b d4.( d2)|d8  b a4. b8 d4. e4 d2||
+    d,8 \mark "slow: wild mountain thyme" b a4. b8 d8 e4. d2|
+    fis8 a b4. b4. a8 fis8 a2| fis8 a b4. a4. fis8 e8 d2| 
+    e8 fis  g4. fis8 e d4 b8 d2 |d8  b a4. b8 d8 e4. d2||
   
   
   

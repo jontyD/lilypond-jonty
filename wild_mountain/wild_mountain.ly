@@ -46,7 +46,7 @@ global = {
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 100 2)
+      tempoWholesPerMinute = #(ly:make-moment 50 2)
     }
   }
 }
