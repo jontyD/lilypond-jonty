@@ -21,11 +21,18 @@ violintwo = \relative c'' {
   fis4 d fis d | fis8  g fis e d e d cis|
    b cis b a  g2| a2  d2 ||
   }
-  \break
-    a8-\markup{"ral...."} b cis a  d2 | a8 b cis a  d2 | a8-\markup{"1/2 speed"} b cis a  d2 \fermata |\break 
   
-  \repeat volta 2
-  {
-    
-  }
+  
+   \break
+    a8-\markup{"ral...."} b cis a  d2 | a8 b cis a  d2 |
+    a8-\markup{"1/2 speed"} b cis a   d2 \fermata |\break 
+  
+  \time 6/4
+ 
+    \set Timing.measurePosition = #(ly:make-moment -1/4)d8 \mark "slow: wild mountain thyme" b |
+    a2 b4 d2 e4 |d2.(d2) fis8 a | b2.    b2 a4 |
+    fis4 a2( a4) fis4 a| b2. a2 fis4| e4 d2(d2) e8 fis|
+    g2 fis4 e2 d4| b d2(d2)d8 b | a2. b8 d4. e4| d2.(d2)\mark "chorus:" fis8 a | b2.    b2 a4 |
+    fis4 a2( a2) fis8 a| b2. a2 fis4| e4 d2(d2) e8 fis|
+    g2 fis4 e2 d4| b d2(d2)d8 b | a2. b8 d4. e4|\set Timing.measurePosition = #(ly:make-moment -5/4) d2.(d2)||
 }

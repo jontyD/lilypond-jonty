@@ -29,10 +29,10 @@ violina = \relative c'' {
  
     \set Timing.measurePosition = #(ly:make-moment -1/4)d,8 \mark "slow: wild mountain thyme" b |
     a2 b4 d2 e4 |d2.(d2) fis8 a | b2.    b2 a4 |
+    fis4 a2( a4) fis4 a| b2. a2 fis4| e4 d2(d2) e8 fis|
+    g2 fis4 e2 d4| b d2(d2)d8 b | a2. b8 d4. e4| d2.(d2)\mark "chorus:" fis8 a | b2.    b2 a4 |
     fis4 a2( a2) fis8 a| b2. a2 fis4| e4 d2(d2) e8 fis|
-    g2 fis4 e2 d4| b d2(d2)d8 b | a2 b4 d2 e4| d2.(d2) fis8 a | b2.    b2 a4 |
-    fis4 a2( a2) fis8 a| b2. a2 fis4| e4 d2(d2) e8 fis|
-    g2 fis4 e2 d4| b d2(d2)d8 b | a2 b4 d2 e4|\set Timing.measurePosition = #(ly:make-moment -5/4) d2.(d2)||
+    g2 fis4 e2 d4| b d2(d2)d8 b | a2. b8 d4. e4|\set Timing.measurePosition = #(ly:make-moment -5/4) d2.(d2)||
   
   
   
