@@ -17,6 +17,7 @@ global = {
 
 \include "violin1.ly"
 \include "violin2.ly"
+\include "bass.ly"
 
 
 
@@ -47,12 +48,17 @@ global = {
     \set Staff.midiInstrument = "violin"
     \violintwo
   } 
+  \new Staff {
+   \set Staff.instrumentName = "Bass"
+    \set Staff.midiInstrument = "acoustic bass"
+    \bass
+  } 
   >>
   \layout { }
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 80 2)
+      
     }
   }
 }
