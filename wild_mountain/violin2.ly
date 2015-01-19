@@ -24,12 +24,12 @@ violintwo = \relative c'' {
   
   
    \break
-    a'4 -\markup{"ral...."} g fis2 | a4 a g2 |
-    d'4 -\markup{"half speed"} cis b a \fermata |\break 
+    a'4 -\markup{"ral...."} g fis2 | e4 e d2 |
+    d4 -\markup{"half speed"} d cis2 \fermata |\break 
   
   \time 6/4
  
-    \set Timing.measurePosition = #(ly:make-moment -2/4)d,4 \mark "slow: wild mountain thyme" b |
+    \set Timing.measurePosition = #(ly:make-moment -2/4)d4 \mark "slow: wild mountain thyme" b |
     a2 b4 d2 e4 |d2.(d4) fis4 a | b2.    b2 a4 |
     fis4 a2( a4) fis4 a| b2. a2 fis4| e4 d2(d4) e4 fis|
     g2 fis4 e2 d4| b d2(d4)d4 b |a2. b8 d4.(d4)| d2.(d4)\mark "chorus:" fis4 a | b2.    b2 a4 |
