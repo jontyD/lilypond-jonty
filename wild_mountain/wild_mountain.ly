@@ -54,6 +54,7 @@ global = {
     \bass
   } 
   >>
+  
   \layout { }
   \midi {
     \context {
@@ -62,3 +63,38 @@ global = {
     }
   }
 }
+\pageBreak
+\markuplist {\fontsize #2
+    \column{
+      \hspace #2
+      \line{Oh the Summer time is coming}
+\line{And the trees are sweetly blooming}
+\line{And the wild mountain thyme}
+\line{All around the blooming heather}
+\line{Will ye go lassie go........}
+\line{And we'll all go together}
+\line{To pull wild mountain thyme}
+\line{From around the blooming heather}
+\line{Will ye go lassie go}
+\hspace #1
+\line{I will build my love a bower}
+\line{Near yon pure crystal fountain}
+\line{And on it I will pile}
+\line{All the flowers of the mountain}
+\line{Will ye go lassie go............}
+\line{And we'll all go together}
+\line{To pull wild mountain thyme}
+\line{From around the blooming heather}
+\line{Will ye go lassie go}
+\hspace #1
+\line{If my true love she were gone}
+\line{I will surely find no other}
+\line{Where wild mountain thyme}
+\line{Grow around the blooming heather}
+\line{Will ye go lassie go...........}
+\line{And we'll all go together}
+\line{To pull wild mountain thyme}
+\line{From around the blooming heather}
+\line{Will ye go lassie go}
+    }
+  }

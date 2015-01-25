@@ -29,10 +29,9 @@ violintwo = \relative c'' {
   
   \time 6/4
  
-    \set Timing.measurePosition = #(ly:make-moment -2/4)d4 \mark "slow: wild mountain thyme" b |
-    a2 b4 d2 e4 |d2.(d4) fis4 a | b2.    b2 a4 |
-    fis4 a2( a4) fis4 a| b2. a2 fis4| e4 d2(d4) e4 fis|
-    g2 fis4 e2 d4| b d2(d4)d4 b |a2. b8 d4.(d4)| d2.(d4)\mark "chorus:" fis4 a | b2.    b2 a4 |
-    fis4 a2( a4) fis4 a| b2. a2 fis4| e4 d2(d4) e4 fis|
-    g2 fis4 e2 d4| b d2(d4)d4 b | a2. b8 d4.(d4)|\set Timing.measurePosition = #(ly:make-moment -4/4) d2.(d4)||
+    \set Timing.measurePosition = #(ly:make-moment -2/4)d'4 \mark "slow: wild mountain thyme" b |
+     |a2. g2. | fis2.(fis4)d4 fis |
+    fis4 d fis fis d fis| b,2 b2 d2|  d2 d4 d2 d4| b2. b2 a4 |d2 d 4 b2 b4| g2.(g4)\mark "chorus:" fis4 g | a2.  g2. |
+    fis2.(fis4)d'4 fis| fis4 d fis fis d fis|d2 d4 d2 d4 |d2 d2 d2| b2. b2 a4 |d2 d 4 b2 b4|
+    g2. g2. | g2. g2.|\set Timing.measurePosition = #(ly:make-moment -4/4) fis2.(fis4)||
 }

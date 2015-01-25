@@ -25,7 +25,7 @@ violina = \relative c'' {
     \tempo 2=60 a8 -\markup{"ral...."} b cis a  d2 |\tempo 4=90 a8 b cis a  d2 |
     \tempo 4=60 fis,4 -\markup{"half speed"} g a2 \fermata |\break 
   
-  \time 6/4 \tempo 2.= 40
+  \time 6/4 \tempo 2.= 48
     \set Timing.measurePosition = #(ly:make-moment -2/4)  d,4 \mark "slow: wild mountain thyme" b |
     a2 b4 d2 e4 |d2.(d4) fis4 a | b2. b2 a4 |
     fis4 a2( a4) fis4 a| b2. a2 fis4| e4 d2(d4) e4 fis|
