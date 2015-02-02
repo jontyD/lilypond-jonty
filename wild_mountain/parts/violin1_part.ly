@@ -40,7 +40,8 @@ global = {
   \new Staff {
     \set Staff.instrumentName = "Violin"
     \set Staff.midiInstrument = "violin"
-    \violina
+    
+    \violina    
   } 
   
   >>
