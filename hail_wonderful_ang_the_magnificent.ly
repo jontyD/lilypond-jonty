@@ -9,13 +9,13 @@
 global = {
   \time 3/4
   \key g \major
-  \tempo 2.=80
+  \tempo 2.=70
 }
 
 chordNames = \chordmode {
   \global
- 
-  
+ g2. d2./a g2.:/b d2.:7/c g2.:/b c2. d2. g2.|d2. g2.|
+  g2. g2. a2. a2.:/cis b2.:min d2.:7/c g2.:/d d2. g2. g2. a2. a2. b2.:min a2.:min/c d2. g2.
 }
 
 melody = \relative c'' {
