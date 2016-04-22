@@ -6,6 +6,11 @@
 	tagline = "Lily was here 2.18.2 -- automatically converted from ABC"
 	title = "Sliabh Russell"
 }
+\paper{
+  top-margin = 50
+  left-margin = 25
+  right-margin = 25
+}
 voicedefault =  {
    
   \time 6/8 \key a \dorian   \repeat volta 2 {   e''8    a'8    a'8    b'8    
@@ -26,12 +31,18 @@ voicedefault =  {
 \score {
     <<
 
-	\context Staff="default"
-	{
-	    \voicedefault 
-	}
+	\new Staff \with {
+    instrumentName = "Violin"
+    midiInstrument = "Violin"
+     }{\voicedefault }
+	
 
     >>
 	\layout{}
-	\midi {}
+	\midi {
+	  \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 300 8)
+    }
+	}
 }
