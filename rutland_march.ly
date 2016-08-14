@@ -32,7 +32,7 @@ melodion = \relative c'' {
 
 \score {
   <<
-    \chords{g2 g2 | d2 d2|e2:m e2:m |b2 b2|g2 g2| d2 d2 | e2:m e2:m| b2 b2||
+    \chords{g2 g2 | d2 d2|e2:m e2:m |b2 b2|g2 g2| d2 d2 | e2:m e2:m| b2 e2:m||
     g2 g2|c2 c2|g2 g2| d2 d2|c2 c2| a2:m a2:m| d2 d2 |b2 b2 |g2 g2| d2 d2| e2:m e2:m |b2 e2:m|| }
   
   \new Staff \with {
@@ -44,7 +44,7 @@ melodion = \relative c'' {
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 80 2)
+      tempoWholesPerMinute = #(ly:make-moment 100 2)
     }
   }
 }
