@@ -1,7 +1,7 @@
 \version "2.18.1"
 
 \header { 
-  title = "Star Trek Reel"
+  title = "Star Trek March"
   instrument = "Any"
   composer = "Jonty Davis"
 }
@@ -13,7 +13,7 @@
 }
 
 global = {
-  \key d \major
+  \key g \major
   \numericTimeSignature 
   \time 6/8
 }
@@ -22,8 +22,8 @@ melodion = \relative c'' {
   \global  
   
   \repeat volta 2 {
-    a4.(a8) d8 fis8 | e4.(e8) c8 b'8| a4. a4. |r8 c, g' a b g|
-    a4. g |fis4. fis8 d fis| e4. e4.|
+    d,4.(d8) g8 b8 | a4.(a8) f8 e'8| d4. d4. |r8 f, c' d e c|
+    d4. c |b4. b8 g b| a2.| a2.|
   }
   \break
  \repeat volta 2{
@@ -35,7 +35,7 @@ melodion = \relative c'' {
 \score {
   <<
   \chords {
-    
+    g4.g f f g g d:m7 d:m7 g a:m g/b e:m d d d d
    }
   \new Staff \with {
     instrumentName = "Any"
