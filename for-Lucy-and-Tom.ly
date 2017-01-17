@@ -7,7 +7,7 @@
 global = {
     \time 4/4
     \key d \major
-    \tempo 2= 70
+    \tempo 2= 100
 }
 
 chordNames = \chordmode {

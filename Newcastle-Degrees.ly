@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-    title = "Degrees of Newcastle upon Tyne"
+    title = "Ten String Reel"
     composer="Jonty Davis"
     dedication="for Lucy and Tom"
 }
@@ -9,27 +9,30 @@
 global = {
     \time 4/4
     \key g \major
-    \tempo 4=160
+    \tempo 4=140
 }
 
 chordNames = \chordmode {
     \global
-    
+    s8 | e4:m b4:m/d c2 | g2/b d4 g4 |
+    e4:m b4:m/d c4 b4:m| a4:m d4 g2|
+    d2 d2| g2 g2| c4. b4.:m a4.:m e4.:m/g d4 a4
+    d2 d2| g2 g2|c2 g2 | d2 g2
     
 }
 
 melody = \relative c'' {
     \global
     \repeat volta 2{
-        \partial 8 {g8} | d'  g g, fis' g, e' c  a| d b g c a fis g d' | \break
+       \partial8{d8}  g8 g, fis' g, e' c  a e'| d b g c a fis g d' | \break
     g g, fis' g, e' g,  d'  b |g  c a fis g4. s8|\break
     }
-    \repeat volta 2{
-          \set Score.measureLength = #(ly:make-moment 1 8)  
-        g8|  \set Score.measureLength = #(ly:make-moment 4 4) | a b c e g a, e' c |
-        a e' c a d b g a|\break
-         b c e g g e c a | e' c a   e' c a g s8 |
-    }
+    d fis a b c d, fis a | g a b c d g, b d |\break
+    e c  e, d' b e, c' a | e b' g e fis e d cis |\break
+    d fis a b c d, fis a | g a b c d g, b d |\break
+    e c g' c, d g, b g |c d, a' d, g2 |
+          
+        
 }
 
 
