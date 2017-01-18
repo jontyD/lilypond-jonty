@@ -20,9 +20,14 @@ global = {
 }
 
 melodion = \relative c'' {
-  \global  
+  \global
+   <<
+    { d,,2 g4 | c2 b4 |g4 e a | d2.|(d2.)|r2.*5 d,,2 g4 | c2 b4 |g4 e a | d2.|(d2.)|r2.*5}
+    \\
+    {r2.*5  d2 g4 | c2 b4 |g4 e a | d2.( d2.)|r2.*5 d2 g4 | c2 b4 |g4 e a | d2.( d2.)| }
+   >>
   
-  
+    
     d,4.(d8) g8 b8 | a4.(a8) f8 e'8| d4. d4. |r8 f, c' d e c|
     d4. c |b4. b8 g b| a2.| a2.|\break 
     d,4.(d8) g8 b8 | a4.(a8) f8 e'8| d4. d4. |r8 f, c' d e c|
@@ -42,7 +47,7 @@ melodion = \relative c'' {
 \score {
   <<
   \chords {
-    g4. g f f g g d:m7 d:m7 g a:m g/b e:m d d d d
+    s2.*18| g4. g f f g g d:m7 d:m7 g a:m g/b e:m d d d d
     g4. g f f g g d:m7 d:m7 g a:m g/b e:m d d d d
     b4. b e:maj7 e:maj7 b b e:maj7 e:maj7 b e:maj7 fis:m e b e c:6 d:7 
     g4. g f f g g d:m7 d:m7 g e:m bes/d aes:m/c | g g| g4. r4. 
