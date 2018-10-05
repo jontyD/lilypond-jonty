@@ -20,7 +20,7 @@ global = {
 violin = \relative c'' {
     \global
     \repeat volta 2 {
-    g4 f'8 d b g | c4 e8 g8 fis8 e8| d e d  c b a| d e d c b a|
+    g4 f'8 d b g | c4 e8 g8 fis8 e8| d e d  c b a| g fis g c b c|
     g4 f'8 d b g | c4 e8 g8 fis8 e8| d e d  c b a| g4. g 4.|
     }\break
     \repeat volta 2 {

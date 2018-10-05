@@ -53,7 +53,7 @@ violinb = \relative c''{
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 60 4)
+      tempoWholesPerMinute = #(ly:make-moment 70 4)
     }
   }
 }

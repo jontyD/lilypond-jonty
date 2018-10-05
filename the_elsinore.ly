@@ -8,7 +8,7 @@
 tune = \relative c'' {
   \clef treble
   \key g \minor
-  \tempo 4. = 100
+  \tempo 4. = 120
   \time 6/8
   \repeat volta 2{
     g8 bes d g fis g | ees g d a bes c| g bes d g fis g | ees g d a4. |
