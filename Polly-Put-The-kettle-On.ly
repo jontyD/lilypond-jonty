@@ -8,7 +8,7 @@
 global = {
   \time 4/4
   \key g \major
-  \tempo 4=130
+  \tempo 4=120
 }
 
 chordNames = \chordmode {
