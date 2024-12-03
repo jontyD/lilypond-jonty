@@ -19,7 +19,7 @@ chordNames = \chordmode {
 melody = \relative c'' {
   \global
   a4 d d d | e2 d4 b| a4 d d d | e2 d4 b|\break
-  a d d a |  fis8 g a4 d, a'|fis4 g a4 b8 cis| d1
+  a d d a |  fis8 g a4 d, a'|fis8 g a4 b cis| d1
   
 }
 
