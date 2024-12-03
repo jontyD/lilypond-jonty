@@ -19,8 +19,8 @@ chordNames = \chordmode {
 melody = \relative c'' {
   \global
   \repeat volta 2 {
-  d,4 a' a fis8 a | b4 a8 g a g fis e | d4 a' a2 |fis8 e fis g a2| 
-  d,4 a' a fis8 a | b4 a8 g a g fis e |d4 a' a4 fis8 a | fis4 e d2 |
+  d,4 a' a fis8 a | b4 a8 g a fis e fis | d4 a' a2 |fis8 e fis g a2| 
+  d,4 a' a fis8 a | b4 a8 g a fis e fis |d4 a' a4 fis8 a | fis4 e d2 |
   }\break
   \repeat volta 2 {
    d'4 a a   b | c4 b8 a b4 a8 g | d'4 a a4. b8 | c8 d c b a2 |\break  
