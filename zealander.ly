@@ -6,7 +6,7 @@
 
 global = {
   \time 4/4
-  \key g \major
+  \key e \minor
   \tempo 4=100
 }
 
@@ -18,7 +18,10 @@ chordNames = \chordmode {
 
 melody = \relative c'' {
   \global
- g4. g8 g8 e8 d4|  e4  g4. g8 g8 a8 b4 c |d8 b c a b g a fis | g4. g 8 g4 e
+ e,8. e16 e8 d8  b4. d8|  e8. e16 e8 fis  g4  a4 |  b8 g a  fis  g e fis d8 | e4 d b d |
+ e8. e16 e8 d8  b4. d8|  e8. e16 e8 fis  g4  a4 |  b8 g a  fis  g e fis d8 | e4 d e2 |\break
+ b'8 b a a  b g e4 | b'8 b a d b2|  b8 b a a  b g e fis   |g e fis d e2|\break
+ b'8 b a a  b g e4 | b'8 b a d b2| b8 g a  fis  g e fis d8 | e4 d e2 
   
 }
 
